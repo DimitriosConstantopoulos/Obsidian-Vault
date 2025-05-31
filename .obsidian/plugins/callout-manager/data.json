@@ -1,0 +1,176 @@
+{
+  "callouts": {
+    "custom": [
+      "journal",
+      "calendar",
+      "picture",
+      "task",
+      "highlight",
+      "spring",
+      "summer",
+      "autumn",
+      "winter",
+      "reminder",
+      "daily"
+    ],
+    "settings": {
+      "journal": [
+        {
+          "changes": {
+            "icon": "lucide-history"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "calendar": [
+        {
+          "changes": {
+            "icon": "lucide-pen-box",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "picture": [
+        {
+          "changes": {
+            "icon": "lucide-image",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "task": [
+        {
+          "changes": {
+            "icon": "lucide-check-square",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "highlight": [
+        {
+          "changes": {
+            "icon": "star-list",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "spring": [
+        {
+          "changes": {
+            "icon": "lucide-flower-2",
+            "color": "249, 150, 174"
+          }
+        }
+      ],
+      "summer": [
+        {
+          "changes": {
+            "icon": "lucide-sun",
+            "color": "173, 255, 0"
+          }
+        }
+      ],
+      "autumn": [
+        {
+          "changes": {
+            "icon": "lucide-leaf",
+            "color": "244, 123, 32"
+          }
+        }
+      ],
+      "winter": [
+        {
+          "changes": {
+            "icon": "lucide-snowflake",
+            "color": "134, 254, 255"
+          }
+        }
+      ],
+      "reminder": [
+        {
+          "changes": {
+            "icon": "lucide-sticky-note"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "255, 213, 79"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 249, 196"
+          }
+        }
+      ],
+      "daily": [
+        {
+          "changes": {
+            "icon": "lucide-sunrise"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "255, 149, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 179, 64"
+          }
+        }
+      ],
+      "quote": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "166, 189, 197"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "158, 158, 158"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

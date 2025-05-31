@@ -1,0 +1,14 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "dim-support-files",
+    "center-backlinks",
+    "callout-settings",
+    "tag-settings"
+  ],
+  "theme": "obsidian"
+}

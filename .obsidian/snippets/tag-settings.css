@@ -1,0 +1,15 @@
+/* For changing the appearance of tags */
+
+/* Lowers opacity of tags */
+.tag {
+  opacity: 0.4;
+  font-size: 0.9em;
+  transition: opacity 0.2s ease;
+}
+
+/* Brighten tags on hover */
+.tag:hover {
+  opacity: 0.8;
+}
+
+

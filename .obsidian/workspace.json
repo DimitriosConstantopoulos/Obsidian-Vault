@@ -1,0 +1,348 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VAULT OVERVIEW.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "VAULT OVERVIEW"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3053b1923c1516e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5e7ca44462c0f7e",
+        "type": "tabs",
+        "dimension": 32.24610822831727,
+        "children": [
+          {
+            "id": "ef3ea01c15f133fa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "51e1a6b2e5053b13",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "493a009795dae4e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "c6d8293e69d9027e",
+        "type": "tabs",
+        "dimension": 67.75389177168273,
+        "children": [
+          {
+            "id": "580d523ed49c9045",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "File explorer"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 417.5
+  },
+  "right": {
+    "id": "2c6ea22febd92b49",
+    "type": "split",
+    "children": [
+      {
+        "id": "4903ed9b737bd4f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7c576814f9718e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Plugin Reqs/Daily Tasks.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Daily Tasks"
+            }
+          },
+          {
+            "id": "4392bb131080bb8e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6f23594e8007dcbf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2b05dd2a3ed1aeac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b30bd916af6eb8f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ba3b57886ab8b570",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "bb13308c6bec1bd2",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3da1bcc572ab5a8b",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "e34520e105d6bae5",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "993c0d2b43036132",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1fe80dfca03e5637",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "ab7a22b315851a35",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 7
+      },
+      {
+        "id": "c6f06c5ba70dd727",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fd4ed887295cdd9",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "homepage:Open homepage": false,
+      "iconic:Open rulebook": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "ledger-obsidian:Add to Ledger": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Journal/01 Daily/2025/05/2025-05-31.md",
+    "VAULT OVERVIEW.md",
+    "Ideas/Python Project Ideas/Quick Membership Check (Day 9 Evolution).md",
+    "Plugin Reqs/Daily Tasks.md",
+    "Plugin Reqs/pixel-banner-images/clouds.jpg",
+    "Plugin Reqs/pixel-banner-images/Invincible Under the Sun.jpg",
+    "Plugin Reqs/Pasted Images/Pasted image 20250421155719.png",
+    "Plugin Reqs/Calendar/2025-05-27.md",
+    "Plugin Reqs/Calendar/2025-09-02.md",
+    "Plugin Reqs/Calendar/2025-05-30.md",
+    "Plugin Reqs/Calendar/2025-05-28.md",
+    "Journal/01 Daily/2025/05/2025-05-30.md",
+    "Journal/01 Daily/2025/05",
+    "Journal/01 Daily/2025",
+    "Journal Help/Recurring Tasks.md",
+    "Journal Help/Quotes.md",
+    "Finances.ledger",
+    "Callout Showcase.md",
+    "Templates/Log  Templates/Log highlight.md",
+    "Attachments/Jinx_4.jpg",
+    "Attachments/Jinx_1.jpg",
+    "Attachments/Jinx_2.png",
+    "Attachments/Jinx_3.jpg",
+    "Attachments/Screenshot 2025-05-10 203949.png",
+    "Journal/05 Yearly/2025.md",
+    "Journal/04 Quarterly/2025/2025-Q2.md",
+    "Journal/03 Monthly/2025/2025-05.md",
+    "Journal/04 Quarterly/2025",
+    "Journal/02 Weekly/2025/2025-W21.md",
+    "Journal/03 Monthly/2025",
+    "Journal/01 Daily/2025/05/2025-05-19.md",
+    "Journal/02 Weekly/2025",
+    "Templates/Yearly Note Template.md",
+    "Templates/Weekly Note Template.md",
+    "Templates/Quarterly Note Template.md",
+    "Templates/Monthly Note Template.md",
+    "Templates/Daily Note Template.md",
+    "Journal/01 Daily/2025/05/2025-05-25.md",
+    "Journal/01 Daily/2025/05/2025-05-24.md",
+    "Attachments/Jinx_5.jpg",
+    "Attachments/Agent_Hoshimi_Miyabi_Icon.webp",
+    "Journal/01 Daily/2025/05/2025-05-22.md",
+    "Journal Help",
+    "Attachments",
+    "Templates/Log  Templates",
+    "Templates",
+    "Untitled.canvas"
+  ]
+}

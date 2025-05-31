@@ -1,0 +1,65 @@
+/* For each callout, the first RGB value is for the dark theme and the second is for the light theme */
+
+/* -- Daily Callout -- */
+/* Colour scheme */
+:is(.theme-dark, .theme-light) .callout[data-callout="daily"] {
+  --callout-color: 255, 179, 64; /* Dark Orange */
+  background-color: rgba(var(--callout-color), 0.1);
+}
+.theme-light .callout[data-callout="daily"] {
+  --callout-color: 255, 149, 0; /* Light Orange */
+}
+
+
+/* -- Quote Callout -- */
+.callout[data-callout="quote"] .callout-content {
+  position: relative;
+  min-height: 75px;
+  padding-right: 95px; /* Image width (75px) + spacing (20px) */
+}
+
+/* Image spacing */
+.callout[data-callout="quote"] .callout-content img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image placement based on current theme */
+/* AnuPpuccin and Minimal theme */
+.theme-anuppuccin .callout[data-callout="quote"] .callout-content img {
+  top: 10px;
+  right: 10px;
+}
+.theme-minimal .callout[data-callout="quote"] .callout-content img {
+  top: 10px;
+  right: 20px; 
+}
+
+/* Text protection */
+.callout[data-callout="quote"] .callout-content > *:not(img) {
+  margin-right: 10px !important;
+  max-width: calc(100% - 85px);
+}
+
+/* Paragraph styling */
+.callout[data-callout="quote"] .callout-content p {
+  margin: 0.2em 0 !important;
+  line-height: 1.3;
+}
+
+/* Color scheme */
+:is(.theme-dark, .theme-light) .callout[data-callout="quote"] {
+  --callout-color: 120, 120, 120; /* Medium grey */
+  background-color: rgba(var(--callout-color), 0.08);
+}
+.theme-light .callout[data-callout="quote"] {
+  --callout-color: 180, 180, 180; /* Light grey */
+}
+
+

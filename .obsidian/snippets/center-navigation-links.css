@@ -1,0 +1,25 @@
+/* For centering backlinks */
+
+/* Centers journal note navigation links */
+.centered-navigation-links {
+  display: block;
+  text-align: center;
+}
+
+/* Stops interactions with uncreated file links for the navigation section of journal notes */
+.centered-navigation-links .internal-link.is-unresolved {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.7;
+}
+
+/* Adds left border and padding */
+.nav-section {
+  border-left: 1px solid var(--background-modifier-border);
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+
+
+

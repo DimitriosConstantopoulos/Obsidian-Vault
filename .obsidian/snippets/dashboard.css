@@ -1,0 +1,79 @@
+/* 
+Last updated 2025-05-29
+Based on TfT Hacker's solution. Learn more at https://tfthacker.com
+*/
+
+.dashboard {
+    font-family: inherit;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 20px !important;
+}
+
+.dashboard .markdown-preview-section {
+    max-width: 100%;
+}
+
+/* Title at top of the document */
+.dashboard .markdown-preview-section .title {
+    top: 60px;
+    position: absolute;
+    font-size: 26pt !important;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    color: white !important;
+    border-bottom: none !important; /* Ensure no underline */
+}
+
+/* Subsection titles with full-width underline */
+.dashboard h1:not(.title) {
+    position: relative; /* Needed for pseudo-element */
+    text-align: center;
+    color: white !important;
+    margin-bottom: 25px;
+    padding-bottom: 8px; /* Space between text and line */
+}
+
+/* Full-width underline */
+.dashboard h1:not(.title)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px; /* Line thickness */
+    background-color: white; /* Line color */
+}
+
+/* Get rid of the parent bullet */
+.dashboard div.markdown-preview-section>div>ul>li>.list-bullet {
+    display: none !important;
+}
+
+/* Remove the indentation guide lines */
+.dashboard.markdown-rendered.show-indentation-guide li>ul::before,
+.dashboard.markdown-rendered.show-indentation-guide li>ol::before {
+    display: none;
+}
+
+div.markdown-preview-section>div>ul.has-list-bullet>li {
+    padding-left: 0p !important;
+}
+
+.dashboard div>ul {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    flex-flow: row wrap;
+}
+
+.dashboard div>ul>li {
+    min-width: 250px;
+    width: 15%;
+}
+
+/* Dataview support */
+.dashboard ul.dataview {
+    row-gap: 0px !important;
+    list-style-type: disc !important;
+}

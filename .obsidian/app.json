@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "hidden",
+  "livePreview": false,
+  "attachmentFolderPath": "Attachments"
+}
